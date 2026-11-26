@@ -2,9 +2,9 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails"
+gem "rails", ">= 8.0.5.2"
 gem "rake", ">= 11.1"
-gem "rack-proxy", require: false
+gem "rack-proxy", ">= 0.7.1", require: false
 gem "semantic_range", require: false
 
 group :test do
